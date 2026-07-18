@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Synapsia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">
+        <a href="index.html">
+            <img src="images/logo_Synapsia.png" alt="synapsia">
+        </a>
+    </h1>
+
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+
+    <nav id="menu">
+        <a href="index.html">Accueil</a>
+        <a href="neurofeedback.html">Neurofeedback</a>
+        <a href="a-propos.html">À propos</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="rendez-vous.html">Prendre rendez-vous</a>
+    </nav>
+</header>
+
+<section class="about">
+    <h2>Contact</h2>
+
+    <p>
+        Une question, un besoin d’information ou envie d’échanger avant de prendre rendez-vous ?
+        Je suis à votre écoute.
+    </p>
+
+    <div class="about-container">
+
+        <div class="about-text">
+            <h3>Coordonnées</h3>
+            <p>Email : <strong><a href="mailto:tonemail@gmail.com">tonemail@gmail.com</a></strong></p>
+
+            <p>Téléphone : <strong><a href="tel:+32612345678">+32 6 12 34 56 78</a></strong></p>
+
+            <p>Adresse : <strong>Ton adresse du cabinet</strong></p>
+        </div>
+
+        <div class="about-photo">
+            <img src="images/cabinet.jpg" alt="Cabinet Synapsia">
+        </div>
+
+    </div>
+
+    <h3>Envoyer un message</h3>
+
+    <form class="contact-form" action="mailto:tonemail@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message..." required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Synapsia • Tous droits réservés</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -19,27 +19,39 @@
 
 <header>
 
-    <h1>
-    <a href="index.html">Synapsia</a>
+<h1 class="logo">
+    <a href="index.html">
+       <img src = "images/logo_Synapsia.png" alt="synapsia">
+    </a>
 </h1>
+
 
     <button class="menu-toggle" id="menu-toggle">
         ☰
     </button>
 
-    <nav id="menu">
+  <nav id="menu">
 
-        <a class="active" href="index.html">Accueil</a>
+    <a class="active" href="index.html">Accueil</a>
 
-        <a href="a-propos.html">À propos</a>
-
+    <div class="dropdown">
         <a href="neurofeedback.html">Neurofeedback</a>
 
-        <a href="accompagnement.html">Accompagnement</a>
+        <div class="dropdown-content">
+            <a href="neurofeedback.html#definition">Qu'est-ce que le neurofeedback ?</a>
+            <a href="neurofeedback.html#pourqui">Pour qui ?</a>
+            <a href="neurofeedback.html#seance">Déroulement d'une séance</a>
+            <a href="neurofeedback.html#faq">FAQ</a>
+        </div>
+    </div>
 
-        <a href="rendez-vous.html">Rendez-vous</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
 
-    </nav>
+    <a href="rendez-vous.html">Prendre rendez-vous</a>
+
+</nav>
+
 
 </header>
 
@@ -48,46 +60,36 @@
 <!-- HERO -->
 
 <section class="hero">
-
-    <div class="slider">
-
-        <img src="images/cabinet.jpg" class="slide active">
-
-        <img src="images/personne_neurofeedback.jpg" class="slide">
-
-        <img src="images/nature calme.jpg" class="slide">
-
-    </div>
-
+    <img src="images/cabinet.jpg" class="hero-bg" alt="Cabinet Synapsia">
+    
     <div class="hero-content">
-
-        <h2>Retrouvez votre équilibre naturellement</h2>
+        <h2>Retrouvez calme, équilibre et bien-être</h2>
 
         <p>
-            Grâce au neurofeedback, Synapsia vous accompagne
-            vers un mieux-être durable.
+            Grâce au neurofeedback et à un accompagnement personnalisé,
+            Synapsia vous aide à mieux gérer le stress, les émotions
+            et les défis du quotidien.
         </p>
 
-        <a href="neurofeedback.html" class="btn">
-            Découvrir le neurofeedback
-        </a>
-
+        <a href="rendez-vous.html" class="btn">Prendre rendez-vous</a>
     </div>
-
 </section>
+
 
 
 <!-- PRESENTATION -->
 
 <section class="presentation">
 
-    <h2>Bienvenue chez Synapsia</h2>
+    <h2>Une approche centrée sur vous</h2>
 
     <p>
 
-        Chaque cerveau possède une formidable capacité d'adaptation.
-        Chez Synapsia, nous vous accompagnons avec bienveillance afin
-        de favoriser cette capacité naturelle grâce au neurofeedback.
+        Chez Synapsia, chaque accompagnement est personnalisé.
+
+        Le neurofeedback permet au cerveau de développer ses
+        capacités d'autorégulation afin de favoriser un mieux-être
+        durable, dans un cadre calme, respectueux et bienveillant.
 
     </p>
 
@@ -103,39 +105,38 @@
 
         <i class="fa-solid fa-brain"></i>
 
-        <h3>Équilibre</h3>
+        <h3>Neurofeedback</h3>
 
         <p>
-            Favoriser une meilleure autorégulation
-            du cerveau afin de retrouver un équilibre durable.
+            Une approche basée sur les capacités naturelles
+            d'adaptation et d'autorégulation du cerveau.
         </p>
 
     </div>
 
+    <div class="card">
+
+        <i class="fa-solid fa-user"></i>
+
+        <h3>Accompagnement personnalisé</h3>
+
+        <p>
+            Chaque personne est unique.
+            Les séances sont adaptées à vos besoins
+            et à vos objectifs.
+        </p>
+
+    </div>
 
     <div class="card">
 
         <i class="fa-solid fa-leaf"></i>
 
-        <h3>Bien-être</h3>
+        <h3>Cadre bienveillant</h3>
 
         <p>
-            Un accompagnement personnalisé dans
-            un environnement calme, serein et bienveillant.
-        </p>
-
-    </div>
-
-
-    <div class="card">
-
-        <i class="fa-solid fa-heart"></i>
-
-        <h3>Accompagnement</h3>
-
-        <p>
-            Chaque personne est unique.
-            Les séances sont adaptées à vos besoins et à votre rythme.
+            Un espace calme et accueillant favorisant
+            l'écoute, le respect et le bien-être.
         </p>
 
     </div>
@@ -148,12 +149,12 @@
 
 <section class="cta">
 
-    <h2>Prêt à découvrir le neurofeedback ?</h2>
+    <h2>Faites le premier pas vers votre mieux-être</h2>
 
     <p>
 
-        Prenez rendez-vous pour un premier échange
-        et découvrez comment Synapsia peut vous accompagner.
+        Un premier échange permet de comprendre vos besoins
+        et de déterminer l'accompagnement le plus adapté.
 
     </p>
 
@@ -162,7 +163,6 @@
     </a>
 
 </section>
-
 
 
 <footer>
@@ -189,6 +189,8 @@
 </footer>
 
 <script src="js/script.js"></script>
+
+
 
 </body>
 

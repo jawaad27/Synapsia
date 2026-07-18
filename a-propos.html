@@ -20,28 +20,40 @@
 
 <header>
 
-<h1>
-    <a href="index.html">Synapsia</a>
+<h1 class="logo">
+    <a href="index.html">
+       <img src = "images/logo_Synapsia.png" alt="synapsia">
+    </a>
 </h1>
+
 
 <button class="menu-toggle" id="menu-toggle">
 ☰
 </button>
 
 
-<nav id="menu">
+ <nav id="menu">
 
-<a href="index.html">Accueil</a>
+    <a  href="index.html">Accueil</a>
 
-<a class="active" href="a-propos.html">À propos</a>
+    <div class="dropdown">
+        <a href="neurofeedback.html">Neurofeedback</a>
 
-<a href="neurofeedback.html">Neurofeedback</a>
+        <div class="dropdown-content">
+            <a href="neurofeedback.html#definition">Qu'est-ce que le neurofeedback ?</a>
+            <a href="neurofeedback.html#pourqui">Pour qui ?</a>
+            <a href="neurofeedback.html#seance">Déroulement d'une séance</a>
+            <a href="neurofeedback.html#faq">FAQ</a>
+        </div>
+    </div>
 
-<a href="accompagnement.html">Accompagnement</a>
+    <a class="active" href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
 
-<a href="rendez-vous.html">Rendez-vous</a>
+    <a href="rendez-vous.html">Prendre rendez-vous</a>
 
 </nav>
+
 
 </header>
 
@@ -160,23 +172,26 @@ Accompagner les capacités naturelles du cerveau.
 
 <footer>
 
-    <p>© 2026 Synapsia - Neurofeedback</p>
+    <p>© 2026 Synapsia • Tous droits réservés</p>
 
     <div class="socials">
 
         <a href="https://www.facebook.com/profile.php?id=100007259353514&locale=fr_FR" target="_blank">
+
             <i class="fa-brands fa-facebook"></i>
+
         </a>
 
 
         <a href="https://www.instagram.com/" target="_blank">
+
             <i class="fa-brands fa-instagram"></i>
+
         </a>
 
     </div>
 
 </footer>
-
 
 <script src="js/script.js"></script>
 

@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Rendez-vous - Synapsia</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -19,9 +20,12 @@
 
 <header>
 
-<h1>
-    <a href="index.html">Synapsia</a>
+<h1 class="logo">
+    <a href="index.html">
+       <img src = "images/logo_Synapsia.png" alt="synapsia">
+    </a>
 </h1>
+
 
 
 <button class="menu-toggle" id="menu-toggle">
@@ -29,19 +33,28 @@
 </button>
 
 
-<nav id="menu">
+ <nav id="menu">
 
-<a href="index.html">Accueil</a>
+    <a  href="index.html">Accueil</a>
 
-<a href="a-propos.html">À propos</a>
+    <div class="dropdown">
+        <a href="neurofeedback.html">Neurofeedback</a>
 
-<a href="neurofeedback.html">Neurofeedback</a>
+        <div class="dropdown-content">
+            <a href="neurofeedback.html#definition">Qu'est-ce que le neurofeedback ?</a>
+            <a href="neurofeedback.html#pourqui">Pour qui ?</a>
+            <a href="neurofeedback.html#seance">Déroulement d'une séance</a>
+            <a href="neurofeedback.html#faq">FAQ</a>
+        </div>
+    </div>
 
-<a href="accompagnement.html">Accompagnement</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
 
-<a class="active" href="rendez-vous.html">Rendez-vous</a>
+    <a class="active" href="rendez-vous.html">Prendre rendez-vous</a>
 
 </nav>
+
 
 
 </header>
@@ -103,69 +116,19 @@ Envoyer ma demande
 
 
 
-<section class="faq">
-
-
-<h2>Questions fréquentes</h2>
-
-
-
-<div class="card">
-
-<h3>Le neurofeedback est-il adapté à tout le monde ?</h3>
-
-<p>
-Un échange préalable permet de déterminer si cet accompagnement correspond à vos besoins.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>Combien de séances sont nécessaires ?</h3>
-
-<p>
-Le nombre de séances dépend des objectifs et de l'évolution de chaque personne.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>Comment se déroule une séance ?</h3>
-
-<p>
-Chaque séance se déroule dans un environnement calme et adapté.
-</p>
-
-</div>
-
-
-</section>
-
-
 
 <footer>
-
-    <p>© Chrysallide -  Neurofeedback</p>
+    <p>© 2026 Synapsia • Tous droits réservés</p>
 
     <div class="socials">
-
         <a href="https://www.facebook.com/profile.php?id=100007259353514&locale=fr_FR" target="_blank">
             <i class="fa-brands fa-facebook"></i>
         </a>
 
-
         <a href="https://www.instagram.com/" target="_blank">
             <i class="fa-brands fa-instagram"></i>
         </a>
-
     </div>
-
 </footer>
 
 
